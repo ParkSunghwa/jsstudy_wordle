@@ -4,16 +4,7 @@ $(document).ready(function(){
 
     var correctAnswer = 'focus';
 
-    // document.querySelector(".enter").addEventListener("click", function(){
 
-    //     var myAnswer = document.querySelectorAll(".input");
-
-    //     if(myAnswer[0].value == correctAnswer[0]){
-    //         myAnswer[0].style.background = 'green';
-    //     }
-
-
-    // });
     $(".enter").click(function(){
 
         var myAnswer = $(".input");
@@ -22,7 +13,7 @@ $(document).ready(function(){
 
             if(myAnswer[i].value == correctAnswer[i]){
                 myAnswer[i].style.background = 'green';
-            } else if(correctAnswer.includes(myAnswer[i])){
+            } else if(correctAnswer.includes(myAnswer[i].value)){
                 myAnswer[i].style.background = 'yellow';
             } else{
                 myAnswer[i].style.background = 'grey';
