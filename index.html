@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wordle</title>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- my style&script -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <!-- <input type="text" class="input">
+    <input type="text" class="input">
+    <input type="text" class="input">
+    <input type="text" class="input">
+    <input type="text" class="input">
+    <button class="enter">제출</button> -->
+    <div class="wrap_wordle">
+        <div class="wrap_title">
+            <span class="title">WORDLE</span>
+        </div>
+        
+        <div class="wrap_answer">
+            <div class="box_answer answer01">
+                <input type="text" maxlength="1" class="input input01">
+                <input type="text" maxlength="1" class="input input02">
+                <input type="text" maxlength="1" class="input input03">
+                <input type="text" maxlength="1" class="input input04">
+                <input type="text" maxlength="1" class="input input05">
+            </div>
+            <div class="box_answer answer02">
+                <input type="text" maxlength="1" class="input input01" disabled>
+                <input type="text" maxlength="1" class="input input02" disabled>
+                <input type="text" maxlength="1" class="input input03" disabled>
+                <input type="text" maxlength="1" class="input input04" disabled>
+                <input type="text" maxlength="1" class="input input05" disabled>
+            </div>
+            <div class="box_answer answer03">
+                <input type="text" maxlength="1" class="input input01" disabled>
+                <input type="text" maxlength="1" class="input input02" disabled>
+                <input type="text" maxlength="1" class="input input03" disabled>
+                <input type="text" maxlength="1" class="input input04" disabled>
+                <input type="text" maxlength="1" class="input input05" disabled>
+            </div>
+            <div class="box_answer answer04">
+                <input type="text" maxlength="1" class="input input01" disabled>
+                <input type="text" maxlength="1" class="input input02" disabled>
+                <input type="text" maxlength="1" class="input input03" disabled>
+                <input type="text" maxlength="1" class="input input04" disabled>
+                <input type="text" maxlength="1" class="input input05" disabled>
+            </div>
+            <div class="box_answer answer05">
+                <input type="text" maxlength="1" class="input input01" disabled>
+                <input type="text" maxlength="1" class="input input02" disabled>
+                <input type="text" maxlength="1" class="input input03" disabled>
+                <input type="text" maxlength="1" class="input input04" disabled>
+                <input type="text" maxlength="1" class="input input05" disabled>
+            </div>
+        </div>
+
+        <div class="wrap_key">
+            <div class="box_key key01">
+                <button class="alphabet q">
+                    Q
+                </button>
+                <button class="alphabet w">
+                    W
+                </button>
+                <button class="alphabet e">
+                    E
+                </button>
+                <button class="alphabet r">
+                    R
+                </button>
+                <button class="alphabet t">
+                    T
+                </button>
+                <button class="alphabet y">
+                    Y
+                </button>
+                <button class="alphabet u">
+                    U
+                </button>
+                <button class="alphabet i">
+                    I
+                </button>
+                <button class="alphabet o">
+                    O
+                </button>
+                <button class="alphabet p">
+                    P
+                </button>
+            </div>
+            <div class="box_key key02">
+                <button class="alphabet a">
+                    A
+                </button>
+                <button class="alphabet s">
+                    S
+                </button>
+                <button class="alphabet d">
+                    D
+                </button>
+                <button class="alphabet f">
+                    F
+                </button>
+                <button class="alphabet g">
+                    G
+                </button>
+                <button class="alphabet h">
+                    H
+                </button>
+                <button class="alphabet j">
+                    J
+                </button>
+                <button class="alphabet k">
+                    K
+                </button>
+                <button class="alphabet l">
+                    L
+                </button>
+            </div>
+            <div class="box_key key03">
+                <button class="enter">
+                    ENTER
+                </button>
+                <button class="alphabet z">
+                    Z
+                </button>
+                <button class="alphabet x">
+                    X
+                </button>
+                <button class="alphabet c">
+                    C
+                </button>
+                <button class="alphabet v">
+                    V
+                </button>
+                <button class="alphabet b">
+                    B
+                </button>
+                <button class="alphabet n">
+                    N
+                </button>
+                <button class="alphabet m">
+                    M
+                </button>
+                <button class="del">
+                    DEL
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
